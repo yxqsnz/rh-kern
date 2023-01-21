@@ -1,5 +1,6 @@
 fn KMain() {
-    uefi_puts("Hello from RHai!")
+    uefi_puts("Hello from RHai!");
+
     loop {
 
     }

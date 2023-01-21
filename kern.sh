@@ -1,7 +1,7 @@
 export EFI_PATH="target/x86_64-unknown-uefi/debug/rh-kern.efi"
 export CARGO_TARGET_DIR=target
 export VM_PATH="target/virtual-machine"
-export OVMF_PATH="/usr/share/OVMF"
+export OVMF_PATH="/usr/share/edk2-ovmf/x64"
 
 echo "--> Building Kernel"
 cargo build --target x86_64-unknown-uefi || exit
