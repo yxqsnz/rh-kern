@@ -1,11 +1,3 @@
-fn KMain() {
-    uefi_puts("Hello from RHai!");
+uefi_puts("Hello");
 
-    loop {
-
-    }
-
-    return 0
-}
-
-KMain()
+loop {}
